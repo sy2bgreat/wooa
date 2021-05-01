@@ -1,3 +1,66 @@
 body {
   background-color: black;
 }
+
+.wooa-div {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+}
+
+.wooa__h1 {
+  color: white;
+  text-shadow: 10px 10px 0 rgba(255, 255, 255, 1);
+  font-size: 100px;
+  cursor: pointer;
+}
+
+.wooa_p {
+  color: white;
+  font-size: 25px;
+}
+
+.hb__box {
+  display: none;
+  position: absolute;
+  top: 15px;
+  bottom: 0;
+  width: 500px;
+  height: 500px;
+  background-color: rgba(236, 52, 242, 0.9);
+  justify-content: center;
+  align-items: center;
+}
+
+.open {
+  display: block;
+}
+
+.hb__box__p {
+  z-index: 999;
+  font-size: 17px;
+  color: white;
+  text-align: center;
+  font-family: "Black Han Sans", sans-serif;
+}
+
+.box__span {
+  color: yellowgreen;
+  text-shadow: 5px 5px 0 rgb(25, 228, 255);
+  font-size: 30px;
+  font-family: "Black Han Sans", sans-serif;
+}
+
+.close {
+  z-index: 999;
+  color: yellow;
+  text-align: center;
+  cursor: pointer;
+}
+
+#ytplayer {
+  margin: 50px auto 0 auto;
+  display: block;
+}
